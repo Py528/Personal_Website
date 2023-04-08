@@ -24,25 +24,25 @@ const images = [
 
 function Intro() {
 	return (
-		<div class="container mt-52 mx-auto flex justify-center items-center flex-col max-w-fit">
+		<div class="container mt-52 mx-auto flex justify-center items-center flex-col max-w-fit text-gray-800">
 			<div class="hero-main flex gap-24">
 				<div class="hero-text w-128">
 					<div class="flex flex-col gap-8 text-5xl">
 						<div class="flex justify-center">
 							<div class="relative">
-								<h1 class="text-5xl font-bold">
+								<h1 class="text-6xl font-bold">
 									Front-End React Developer
 									<img
-										class="h-14 w-14 absolute -bottom-1 right-72"
+										class="h-16 w-16 absolute bottom-0 right-40"
 										src={wave}
 										alt="wave"
 									/>
 								</h1>
 							</div>
 						</div>
-						<div class="italic font-medium text-2xl">
-							Hi, I'm Pranav Shinde. A passionate Front-end React Developer based in Pune, India. 📍
-						</div>
+						<p class="font-normal text-gray-500 text-xl">
+							Hi, I'm Pranav Shinde. A passionate Front-end React Developer based in Pune, India.{'📍'}
+						</p>
 						<div class="flex gap-4">
 							<a href="#">
 								<img
@@ -69,11 +69,11 @@ function Intro() {
 			<div class="skills self-start flex items-center text-2xl pt-20">
 				<p class="border-r-2 border-solid border-gray-500 font-mulish font-semibold mr-28 pr-8">Tech Stack</p>
 				<div class="logos">
-					<ul class="flex space-x-4 gap-8">
+					<ul class="flex space-x-4 gap-10">
 						{images.map((img, index) => (
 							<li key={index}>
-								<div class="relative rounded-full bg-white w-10 h-10 shadow-xl flex justify-center items-center">
-									<div class="absolute rounded-full bg-white w-16 h-16"></div>
+								<div class="relative rounded-full bg-white w-10 h-10 shadow-md flex justify-center items-center">
+									<div class="absolute rounded-full bg-white w-18 h-18 shadow-lg"></div>
 									<img
 										src={img.src}
 										title={img.title}
