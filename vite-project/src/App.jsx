@@ -5,7 +5,7 @@ import Intro from './components/Intro';
 
 function App() {
 	return (
-		<div className="App">
+		<div className="App bg-neutral-50 h-screen">
 			<Navbar />
 			<Intro />
 		</div>
