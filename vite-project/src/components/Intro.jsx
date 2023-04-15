@@ -13,13 +13,13 @@ import {
 	Personalphoto,
 } from '../assets/assets.js';
 const images = [
-	{ src: HTML, title: 'HTML' },
-	{ src: CSS, title: 'CSS3' },
-	{ src: JavaScript, title: 'Javascript' },
-	{ src: Reacts, title: 'React JS' },
-	{ src: Tailwind, title: 'Tailwind CSS' },
-	{ src: Git, title: 'Git' },
-	{ src: NODE, title: 'Node' },
+	{ src: HTML, title: 'HTML', link: 'https://www.w3.org/html/' },
+	{ src: CSS, title: 'CSS3', link: 'https://www.w3.org/Style/CSS/' },
+	{ src: JavaScript, title: 'Javascript', link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript' },
+	{ src: Reacts, title: 'React JS', link: 'https://reactjs.org/' },
+	{ src: Tailwind, title: 'Tailwind CSS', link: 'https://tailwindcss.com/' },
+	{ src: Git, title: 'Git', link: 'https://git-scm.com/' },
+	{ src: NODE, title: 'Node', link: 'https://nodejs.org/' },
 ];
 
 function Intro() {
@@ -76,15 +76,17 @@ function Intro() {
 						<ul class="flex space-x-4 gap-10">
 							{images.map((img, index) => (
 								<li key={index}>
-									<div class="relative rounded-full bg-white w-10 h-10 shadow-md flex justify-center items-center">
-										<div class="absolute rounded-full bg-white w-18 h-18 shadow-lg"></div>
-										<img
-											src={img.src}
-											title={img.title}
-											alt="program_img"
-											class="absolute inset-0 h-full w-full object-contain"
-										/>
-									</div>
+									<a href={img.link}>
+										<div class="relative rounded-full bg-white w-10 h-10 shadow-md flex justify-center items-center">
+											<div class="absolute rounded-full bg-white w-18 h-18 shadow-lg"></div>
+											<img
+												src={img.src}
+												title={img.title}
+												alt="program_img"
+												class="absolute inset-0 h-full w-full object-contain"
+											/>
+										</div>
+									</a>
 								</li>
 							))}
 						</ul>
