@@ -9,3 +9,4 @@ export { default as HTML } from './html-1.svg';
 export { default as NODE } from './nodejs-icon.svg';
 export { default as Reacts } from './react-2.svg';
 export { default as Personalphoto } from './personal_photo.jpeg';
+export { default as Macbook } from './macbook.jpg';
