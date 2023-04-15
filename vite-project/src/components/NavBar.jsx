@@ -1,7 +1,7 @@
 import React from 'react';
 function NavBar() {
 	return (
-		<div className="sticky top-0 bg-white shadow-md text-gray-800 h-22 flex-1 items-center justify-center px-8">
+		<div className="sticky top-0 bg-white shadow-md text-gray-800 h-22 flex-1 items-center justify-center px-8 z-10">
 			<nav
 				aria-label="Site Nav"
 				class="mx-auto flex items-center justify-between p-4 max-w-full h-full"
