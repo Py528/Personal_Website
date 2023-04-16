@@ -64,7 +64,7 @@ function Intro() {
 						</div>
 					</div>
 					<div
-						className="hero-img h-96 w-80 rounded ml-10"
+						className="hero-img rounded-full w-112 h-112 bg-cover bg-center"
 						style={{ backgroundImage: `url(${Personalphoto})` }}
 					></div>
 				</div>
