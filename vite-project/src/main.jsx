@@ -7,9 +7,9 @@ import './index.css';
 import './App.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-	<React.StrictMode>
-		<NavBar />
-		<Home />
-		<About />
-	</React.StrictMode>
+		<React.StrictMode>
+			<NavBar />
+			<Home />
+			<About />
+		</React.StrictMode>
 );

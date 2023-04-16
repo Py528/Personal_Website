@@ -138,5 +138,8 @@ export default {
 		},
 	},
 	darkMode: 'class',
-	plugins: [require('daisyui'), require('flowbite')],
+	plugins: [require('daisyui'), require('flowbite'), require('tailwind-scrollbar')],
+	variants: {
+		scrollbar: ['rounded'],
+	},
 };
