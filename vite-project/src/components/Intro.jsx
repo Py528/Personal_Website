@@ -24,7 +24,7 @@ const images = [
 
 function Intro() {
 	return (
-		<div className="h-screen bg-gray-100 flex justify-center items-center flex-col text-gray-800">
+		<div className="h-screen bg-gray-50 flex justify-center items-center flex-col text-gray-800">
 			<div className="container mx-auto flex justify-center items-center flex-col max-w-fit">
 				<div className="hero-main flex gap-24">
 					<div className="hero-text w-128">
@@ -64,7 +64,7 @@ function Intro() {
 						</div>
 					</div>
 					<div
-						className="hero-img rounded-full w-112 h-112 bg-cover bg-center"
+						className="hero-img rounded-full w-108 h-108 bg-cover bg-center"
 						style={{ backgroundImage: `url(${Personalphoto})` }}
 					></div>
 				</div>
