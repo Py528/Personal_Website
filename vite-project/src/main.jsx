@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './App.css';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
-import './index.css';
 import About from './components/About';
+import './index.css';
+import './App.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 	<React.StrictMode>
