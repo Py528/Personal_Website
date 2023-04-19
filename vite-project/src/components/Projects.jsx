@@ -10,7 +10,10 @@ function Projects() {
 						Each project is a unique piece of development 🧩
 					</h3>
 				</div>
-				<div class="projects-grid">
+				<div class="projects-grid flex flex-col gap-16 my-16">
+					<Project1 />
+					<Project1 />
+					<Project1 />
 					<Project1 />
 				</div>
 			</div>
