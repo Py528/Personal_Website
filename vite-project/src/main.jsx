@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import './index.css';
 import './App.css';
 import Projects from './components/Projects';
+import '@fortawesome/fontawesome-svg-core/styles.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 	<React.StrictMode>
