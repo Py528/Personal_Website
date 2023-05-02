@@ -8,6 +8,7 @@ import './index.css';
 import './App.css';
 import Projects from './components/Projects';
 import '@fortawesome/fontawesome-svg-core/styles.css';
+import Footer from './components/Footer';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 	<React.StrictMode>
@@ -16,5 +17,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 		<About />
 		<Projects />
 		<Contact />
+		<Footer />
 	</React.StrictMode>
 );
