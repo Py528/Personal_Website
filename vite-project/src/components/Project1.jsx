@@ -3,8 +3,8 @@ import { Macbook } from '../assets/assets';
 function Project1() {
 	return (
 		<div>
-			<div class="pro pro__1 flex flex-col lg:flex-row justify-between items-center bg-white rounded-3xl shadow-md p-4 gap-4">
-				<div class="pro__img rounded-3xl overflow-hidden lg:w-1/2">
+			<div className="pro pro__1 flex flex-col lg:flex-row justify-between items-center bg-white rounded-3xl shadow-md p-4 gap-4">
+				<div className="pro__img rounded-3xl overflow-hidden lg:w-1/2">
 					<a
 						target="_blank"
 						href="https://car-rental-ten.vercel.app/"
@@ -16,22 +16,22 @@ function Project1() {
 						/>
 					</a>
 				</div>
-				<div class="pro__text text-center flex flex-col justify-center items-center gap-[0.3rem] lg:w-1/2 lg:text-left">
-					<h3 class="text-[#333] font-extrabold text-sm my-4 uppercase">Car Rental 🚗</h3>
-					<p class="text-[#333] px-4 py-2">
+				<div className="pro__text text-center flex flex-col justify-center items-center gap-[0.3rem] lg:w-1/2 lg:text-left">
+					<h3 className="text-[#333] font-extrabold text-sm my-4 uppercase">Car Rental 🚗</h3>
+					<p className="text-[#333] px-4 py-2">
 						A car rental website is an online platform that allows users to rent cars for personal or
 						business use. The website provides an interface for searching, comparing, and reserving cars.
 					</p>
-					<div class="flex justify-center items-center gap-4 text-[#333] font-bold text-sm my-4 uppercase lg:justify-start">
-						<p class="bg-white rounded-md shadow-md p-[0.6rem]">React</p>
-						<p class="bg-white rounded-md shadow-md p-[0.6rem]">SCSS</p>
+					<div className="flex justify-center items-center gap-4 text-[#333] font-bold text-sm my-4 uppercase lg:justify-start">
+						<p className="bg-white rounded-md shadow-md p-[0.6rem]">React</p>
+						<p className="bg-white rounded-md shadow-md p-[0.6rem]">SCSS</p>
 					</div>
-					<div class="links flex justify-center items-center gap-4 text-[#333] font-bold text-sm my-4 uppercase lg:justify-start">
+					<div className="links flex justify-center items-center gap-4 text-[#333] font-bold text-sm my-4 uppercase lg:justify-start">
 						<a
 							target="_blank"
 							href="https://github.com/stefvndev/car-rental"
 							rel="noreferrer"
-							class="flex items-center gap-2"
+							className="flex items-center gap-2"
 						>
 							Code
 							<svg
