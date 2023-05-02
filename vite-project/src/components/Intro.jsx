@@ -21,6 +21,8 @@ const images = [
 	{ src: Git, title: 'Git', link: 'https://git-scm.com/' },
 	{ src: NODE, title: 'Node', link: 'https://nodejs.org/' },
 ];
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function Intro() {
 	return (
@@ -41,25 +43,37 @@ function Intro() {
 									</h1>
 								</div>
 							</div>
-							<p className="font-normal text-gray-500 text-xl">
-								Hi, I'm Pranav Shinde. A passionate Front-end React Developer based in Pune, India.
-								{'📍'}
-							</p>
-							<div className="flex gap-4">
-								<a href="#">
-									<img
-										className="cursor-pointer filter grayscale hover:grayscale-0 max-w-sm rounded-lg transition-all duration-300 w-11 relative"
-										src={LinkedIn}
-										alt="image description"
-									/>
-								</a>
-								<a href="#">
-									<img
-										className="cursor-pointer filter grayscale hover:grayscale-0 max-w-sm rounded-lg transition-all duration-300 w-11 relative"
-										src={Github}
-										alt="image description"
-									/>
-								</a>
+							<div>
+								<p className="font-normal text-gray-500 text-xl">
+									Hi, I'm Pranav Shinde. A passionate Front-end React Developer based in Pune, India.
+									{'📍'}
+								</p>
+								<div className="flex gap-4">
+									<a
+										aria-label="linkedin"
+										target="_blank"
+										className="hover:text-blue-500 transition duration-300"
+										rel="noreferrer"
+										href="https://www.linkedin.com/in/pranaav-shinde-1b8abb1b3/"
+									>
+										<FontAwesomeIcon
+											icon={faLinkedin}
+											className="text-3xl"
+										/>
+									</a>
+									<a
+										aria-label="github"
+										target="_blank"
+										className="hover:text-blue-500 transition duration-300"
+										rel="noreferrer"
+										href="https://github.com/py528"
+									>
+										<FontAwesomeIcon
+											icon={faGithub}
+											className="text-3xl"
+										/>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
