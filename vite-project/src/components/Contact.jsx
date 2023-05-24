@@ -5,20 +5,20 @@ import { faEnvelopeOpenText } from '@fortawesome/free-solid-svg-icons';
 
 function Contact() {
 	return (
-		<div className="flex justify-center items-center w-full py-12 bg-white">
+		<div className="flex justify-start items-center mx-auto py-8 max-w-[60%] w-[90%] bg-white">
 			<section
 				id="contact"
-				className="contact py-8 md:py-16 lg:py-20 px-4 md:px-8 lg:px-12 justify-center items-center flex flex-col"
+				className="contact py-8 md:py-16 lg:py-20 px-4 md:px-8 lg:px-12 justify-center items-start flex flex-col"
 			>
 				<div className="container flex flex-col justify-center gap-10">
-					<div className="contact__content flex flex-col justify-center gap-10 md:gap-16 lg:gap-20">
+					<div className="contact__content flex flex-col justify-center gap-10">
 						<div className="contact__title">
-							<p className="text-[#008cff] font-bold text-md md:text-lg leading-[1rem] mb-[.5rem] uppercase">
+							<p className="text-[#008cff] font-bold text-xl leading-[1rem] mb-[.5rem] uppercase">
 								contact
 							</p>
-							<h3 className="text-[#333] text-xl md:text-2xl font-bold">Don't be shy! Hit me up! 👇</h3>
+							<h3 className="text-[#333] text-[1.7rem] leading-[1.7rem] font-bold">Don't be shy! Hit me up! 👇</h3>
 						</div>
-						<div className="contact__icons py-4 md:py-8 lg:py-12 flex flex-col md:flex-row justify-center md:justify-start items-center">
+						<div className="contact__icons py-4 flex flex-col md:flex-row justify-center md:justify-start items-center">
 							<div className="contact__icon-box md:mr-8 w-80 flex items-center gap-8">
 								<span className="relative rounded-full bg-white w-10 h-10 shadow-md flex justify-center items-center">
 									<div className="absolute rounded-full bg-white w-18 h-18 shadow-lg"></div>

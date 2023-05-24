@@ -26,14 +26,14 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function Intro() {
 	return (
-		<div className="h-screen bg-gray-50 flex justify-center items-center flex-col text-gray-800">
-			<div className="container mx-auto flex justify-center items-center flex-col max-w-fit">
+		<div className="h-screen bg-gray-50 text-gray-800 mx-auto">
+			<div className="container mx-auto flex justify-center items-center flex-col pt-40 max-w-fit">
 				<div className="hero-main flex gap-24">
 					<div className="hero-text w-128">
 						<div className="flex flex-col gap-8 text-5xl">
 							<div className="flex justify-center">
 								<div className="relative">
-									<h1 className="text-6xl font-bold">
+									<h1 className="text-6xl font-extrabold text-gray-800">
 										Front-End React Developer
 										<img
 											className="h-16 w-16 absolute bottom-0 right-40"
@@ -78,7 +78,7 @@ function Intro() {
 						</div>
 					</div>
 					<div
-						className="hero-img rounded-full w-108 h-108 bg-cover bg-center"
+						className="hero-img rounded-full w-96 h-96 bg-cover bg-center"
 						style={{ backgroundImage: `url(${Personalphoto})` }}
 					></div>
 				</div>
