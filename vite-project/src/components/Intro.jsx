@@ -17,8 +17,8 @@ import {
 
 function Intro() {
 	return (
-		<div className="h-screen lg:bg-gray-50 text-gray-800 mx-auto">
-			<div className="container mx-auto flex justify-between items-center flex-col pt-40 relative">
+		<div className="lg:bg-gray-50">
+			<div className="container mx-auto flex justify-between items-center flex-col pt-40 lg:pb-[20rem] md:pb-[16rem] sm:pb-[12rem] 2xs:pb-[8rem] 3xs:pb-[6rem] text-gray-800">
 				<div className="hero-main flex gap-12 lg:flex-row flex-col-reverse items-center justify-between max-w-[109rem]">
 					<div className="hero-text w-1/2">
 						<div className="flex flex-col gap-8 text-5xl">
@@ -80,88 +80,90 @@ function Intro() {
 						</div>
 					</div>
 				</div>
-				<div className="skills flex lg:flex-row flex-col items-center text-2xl pt-20 lg:pr-20">
-					<p className="border-r-2 lg:border-solid lg:border-gray-500 font-mulish font-semibold mr-6 pr-4 justify-center items-end lg:items-center border-none px-12">
-						Tech Stack
-					</p>
-					<div className="logos flex flex-wrap justify-center gap-12 mt-8 lg:mt-0 ml-4 ">
-						<a href="https://www.w3.org/html/">
-							<div className="logo-container relative rounded-full bg-white w-8 sm:w-10 md:w-12 h-8 sm:h-10 md:h-12 shadow-md flex justify-center items-center">
-								<div className="absolute rounded-full bg-white w-14 sm:w-16 md:w-20 h-14 sm:h-16 md:h-20 shadow-lg"></div>
-								<img
-									src={HTML}
-									title="HTML"
-									alt="program_img"
-									className="absolute inset-0 h-full w-full object-contain"
-								/>
-							</div>
-						</a>
-						<a href="https://www.w3.org/Style/CSS/">
-							<div className="logo-container relative rounded-full bg-white w-8 sm:w-10 md:w-12 h-8 sm:h-10 md:h-12 shadow-md flex justify-center items-center">
-								<div className="absolute rounded-full bg-white w-14 sm:w-16 md:w-20 h-14 sm:h-16 md:h-20 shadow-lg"></div>
-								<img
-									src={CSS}
-									title="CSS3"
-									alt="program_img"
-									className="absolute inset-0 h-full w-full object-contain"
-								/>
-							</div>
-						</a>
-						<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-							<div className="logo-container relative rounded-full bg-white w-8 sm:w-10 md:w-12 h-8 sm:h-10 md:h-12 shadow-md flex justify-center items-center">
-								<div className="absolute rounded-full bg-white w-14 sm:w-16 md:w-20 h-14 sm:h-16 md:h-20 shadow-lg"></div>
-								<img
-									src={JavaScript}
-									title="Javascript"
-									alt="program_img"
-									className="absolute inset-0 h-full w-full object-contain"
-								/>
-							</div>
-						</a>
-						<a href="https://reactjs.org/">
-							<div className="logo-container relative rounded-full bg-white w-8 sm:w-10 md:w-12 h-8 sm:h-10 md:h-12 shadow-md flex justify-center items-center">
-								<div className="absolute rounded-full bg-white w-14 sm:w-16 md:w-20 h-14 sm:h-16 md:h-20 shadow-lg"></div>
-								<img
-									src={Reacts}
-									title="React JS"
-									alt="program_img"
-									className="absolute inset-0 h-full w-full object-contain"
-								/>
-							</div>
-						</a>
-						<a href="https://tailwindcss.com/">
-							<div className="logo-container relative rounded-full bg-white w-8 sm:w-10 md:w-12 h-8 sm:h-10 md:h-12 shadow-md flex justify-center items-center">
-								<div className="absolute rounded-full bg-white w-14 sm:w-16 md:w-20 h-14 sm:h-16 md:h-20 shadow-lg"></div>
-								<img
-									src={Tailwind}
-									title="Tailwind CSS"
-									alt="program_img"
-									className="absolute inset-0 h-full w-full object-contain"
-								/>
-							</div>
-						</a>
-						<a href="https://git-scm.com/">
-							<div className="logo-container relative rounded-full bg-white w-8 sm:w-10 md:w-12 h-8 sm:h-10 md:h-12 shadow-md flex justify-center items-center">
-								<div className="absolute rounded-full bg-white w-14 sm:w-16 md:w-20 h-14 sm:h-16 md:h-20 shadow-lg"></div>
-								<img
-									src={Git}
-									title="Git"
-									alt="program_img"
-									className="absolute inset-0 h-full w-full object-contain"
-								/>
-							</div>
-						</a>
-						<a href="https://nodejs.org/">
-							<div className="logo-container relative rounded-full bg-white w-8 sm:w-10 md:w-12 h-8 sm:h-10 md:h-12 shadow-md flex justify-center items-center">
-								<div className="absolute rounded-full bg-white w-14 sm:w-16 md:w-20 h-14 sm:h-16 md:h-20 shadow-lg"></div>
-								<img
-									src={NODE}
-									title="Node"
-									alt="program_img"
-									className="absolute inset-0 h-full w-full object-contain"
-								/>
-							</div>
-						</a>
+				<div className="hero-side">
+					<div className="skills flex lg:flex-row flex-col items-center text-2xl pt-20 lg:pr-20">
+						<p className="border-r-2 lg:border-solid lg:border-gray-500 font-mulish font-semibold mr-6 pr-4 justify-center items-end lg:items-center border-none px-12">
+							Tech Stack
+						</p>
+						<div className="logos flex flex-wrap justify-center gap-12 mt-8 lg:mt-0 ml-4 ">
+							<a href="https://www.w3.org/html/">
+								<div className="logo-container relative rounded-full bg-white w-8 sm:w-10 md:w-12 h-8 sm:h-10 md:h-12 shadow-md flex justify-center items-center">
+									<div className="absolute rounded-full bg-white w-14 sm:w-16 md:w-20 h-14 sm:h-16 md:h-20 shadow-lg"></div>
+									<img
+										src={HTML}
+										title="HTML"
+										alt="program_img"
+										className="absolute inset-0 h-full w-full object-contain"
+									/>
+								</div>
+							</a>
+							<a href="https://www.w3.org/Style/CSS/">
+								<div className="logo-container relative rounded-full bg-white w-8 sm:w-10 md:w-12 h-8 sm:h-10 md:h-12 shadow-md flex justify-center items-center">
+									<div className="absolute rounded-full bg-white w-14 sm:w-16 md:w-20 h-14 sm:h-16 md:h-20 shadow-lg"></div>
+									<img
+										src={CSS}
+										title="CSS3"
+										alt="program_img"
+										className="absolute inset-0 h-full w-full object-contain"
+									/>
+								</div>
+							</a>
+							<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+								<div className="logo-container relative rounded-full bg-white w-8 sm:w-10 md:w-12 h-8 sm:h-10 md:h-12 shadow-md flex justify-center items-center">
+									<div className="absolute rounded-full bg-white w-14 sm:w-16 md:w-20 h-14 sm:h-16 md:h-20 shadow-lg"></div>
+									<img
+										src={JavaScript}
+										title="Javascript"
+										alt="program_img"
+										className="absolute inset-0 h-full w-full object-contain"
+									/>
+								</div>
+							</a>
+							<a href="https://reactjs.org/">
+								<div className="logo-container relative rounded-full bg-white w-8 sm:w-10 md:w-12 h-8 sm:h-10 md:h-12 shadow-md flex justify-center items-center">
+									<div className="absolute rounded-full bg-white w-14 sm:w-16 md:w-20 h-14 sm:h-16 md:h-20 shadow-lg"></div>
+									<img
+										src={Reacts}
+										title="React JS"
+										alt="program_img"
+										className="absolute inset-0 h-full w-full object-contain"
+									/>
+								</div>
+							</a>
+							<a href="https://tailwindcss.com/">
+								<div className="logo-container relative rounded-full bg-white w-8 sm:w-10 md:w-12 h-8 sm:h-10 md:h-12 shadow-md flex justify-center items-center">
+									<div className="absolute rounded-full bg-white w-14 sm:w-16 md:w-20 h-14 sm:h-16 md:h-20 shadow-lg"></div>
+									<img
+										src={Tailwind}
+										title="Tailwind CSS"
+										alt="program_img"
+										className="absolute inset-0 h-full w-full object-contain"
+									/>
+								</div>
+							</a>
+							<a href="https://git-scm.com/">
+								<div className="logo-container relative rounded-full bg-white w-8 sm:w-10 md:w-12 h-8 sm:h-10 md:h-12 shadow-md flex justify-center items-center">
+									<div className="absolute rounded-full bg-white w-14 sm:w-16 md:w-20 h-14 sm:h-16 md:h-20 shadow-lg"></div>
+									<img
+										src={Git}
+										title="Git"
+										alt="program_img"
+										className="absolute inset-0 h-full w-full object-contain"
+									/>
+								</div>
+							</a>
+							<a href="https://nodejs.org/">
+								<div className="logo-container relative rounded-full bg-white w-8 sm:w-10 md:w-12 h-8 sm:h-10 md:h-12 shadow-md flex justify-center items-center">
+									<div className="absolute rounded-full bg-white w-14 sm:w-16 md:w-20 h-14 sm:h-16 md:h-20 shadow-lg"></div>
+									<img
+										src={NODE}
+										title="Node"
+										alt="program_img"
+										className="absolute inset-0 h-full w-full object-contain"
+									/>
+								</div>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
