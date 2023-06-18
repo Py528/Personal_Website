@@ -135,6 +135,13 @@ export default {
 				126: '31.5rem',
 				128: '32rem',
 			},
+			screens: {
+				'xs': '475px',
+				'2xs': '440px',
+				'3xs': '340px',
+				'ms': '520px',
+				'sm': '640px',  
+			  },
 		},
 	},
 	darkMode: 'class',
