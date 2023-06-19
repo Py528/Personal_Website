@@ -3,7 +3,19 @@ import { Macbook } from '../assets/assets';
 function Project1() {
 	return (
 		<div>
-			<div className="pro pro__1 flex flex-col lg:flex-row justify-between items-center bg-white rounded-3xl shadow-md p-4 gap-4">
+			<div className="pro pro__1 flex flex-col lg:flex-row-reverse justify-between items-center bg-white rounded-3xl shadow-md p-4 gap-4">
+				<div className="pro__img rounded-3xl overflow-hidden lg:w-1/2">
+					<a
+						target="_blank"
+						href="https://car-rental-ten.vercel.app/"
+						rel="noreferrer"
+					>
+						<img
+							src={Macbook}
+							alt="website"
+						/>
+					</a>
+				</div>
 				<div className="pro__text text-center flex flex-col justify-center items-center gap-[0.3rem] lg:w-1/2 lg:text-left">
 					<h3 className="text-[#333] font-extrabold text-sm my-4 uppercase">Car Rental 🚗</h3>
 					<p className="text-[#333] px-4 py-2">
@@ -46,18 +58,6 @@ function Project1() {
 							</svg>
 						</a>
 					</div>
-				</div>
-				<div className="pro__img rounded-3xl overflow-hidden lg:w-1/2">
-					<a
-						target="_blank"
-						href="https://car-rental-ten.vercel.app/"
-						rel="noreferrer"
-					>
-						<img
-							src={Macbook}
-							alt="website"
-						/>
-					</a>
 				</div>
 			</div>
 		</div>
