@@ -3,7 +3,9 @@ import Intro from './Intro';
 function Home() {
 	return (
 		<div>
-			<Intro />
+			<div className="h-screen lg:bg-gray-50 mx-auto">
+				<Intro />
+			</div>
 		</div>
 	);
 }

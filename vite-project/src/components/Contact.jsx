@@ -5,21 +5,24 @@ import { faEnvelopeOpenText } from '@fortawesome/free-solid-svg-icons';
 
 function Contact() {
 	return (
-		<div className="flex justify-start items-center mx-auto py-8 max-w-[60%] w-[90%] bg-white">
+		<div className="flex justify-center items-center mx-auto overflow-hidden">
 			<section
 				id="contact"
-				className="contact py-8 md:py-16 lg:py-20 px-4 md:px-8 lg:px-12 justify-center items-start flex flex-col"
+				className="contact py-8 px-4 justify-center items-center flex flex-col"
 			>
 				<div className="container flex flex-col justify-center gap-10">
 					<div className="contact__content flex flex-col justify-center gap-10">
 						<div className="contact__title">
-							<p className="text-[#008cff] font-bold text-xl leading-[1rem] mb-[.5rem] uppercase">
+							<p className="text-blue-600 font-bold lg:text-xl md:text-lg sm:text-base xs:text-sm text-xs leading-normal mb-0.5 uppercase">
 								contact
 							</p>
-							<h3 className="text-[#333] text-[1.7rem] leading-[1.7rem] font-bold">Don't be shy! Hit me up! 👇</h3>
+							<h3 className="text-gray-700 lg:text-2xl md:text-xl sm:text-lg xs:text-base 2xs:text-sm text-xs leading-normal font-bold">
+								Don't be shy! Hit me up! 👇
+							</h3>
 						</div>
-						<div className="contact__icons py-4 flex flex-col md:flex-row justify-center md:justify-start items-center">
-							<div className="contact__icon-box md:mr-8 w-80 flex items-center gap-8">
+
+						<div className="contact__icons py-4 flex flex-col md:flex-row justify-center md:justify-start items-center flex-wrap">
+							<div className="contact__icon-box md:mr-8 w-full md:w-80 flex items-center flex-col sm:flex-row gap-8">
 								<span className="relative rounded-full bg-white w-10 h-10 shadow-md flex justify-center items-center">
 									<div className="absolute rounded-full bg-white w-18 h-18 shadow-lg"></div>
 									<FontAwesomeIcon
@@ -30,12 +33,12 @@ function Contact() {
 										className="absolute inset-0 h-full w-full object-contain"
 									/>
 								</span>
-								<div className="contact__info">
-									<h3 className="text-[#333] text-lg md:text-xl font-extrabold">Location</h3>
-									<p className="text-[#888] text-md md:text-lg">Pune, India</p>
+								<div className="contact__info flex flex-col justify-center items-center md:items-start">
+									<h3 className="text-gray-700 text-lg md:text-xl font-extrabold">Location</h3>
+									<p className="text-gray-600 text-sm md:text-base">Pune, India</p>
 								</div>
 							</div>
-							<div className="contact__icon-box mt-6 md:mt-0 w-80 flex items-center gap-8">
+							<div className="contact__icon-box mt-6 md:mt-0 w-full md:w-80 flex items-center flex-col sm:flex-row gap-8">
 								<span className="relative rounded-full bg-white w-10 h-10 shadow-md flex justify-center items-center">
 									<div className="absolute rounded-full bg-white w-18 h-18 shadow-lg"></div>
 									<FontAwesomeIcon
@@ -46,10 +49,10 @@ function Contact() {
 										className="absolute inset-0 h-full w-full object-contain"
 									/>
 								</span>
-								<div className="contact__info">
-									<h3 className="text-[#333] text-lg md:text-xl font-extrabold">Mail</h3>
+								<div className="contact__info flex flex-col justify-center items-center md:items-start">
+									<h3 className="text-gray-700 text-lg md:text-xl font-extrabold">Mail</h3>
 									<a
-										className="text-[#888] text-md md:text-lg"
+										className="text-gray-600 text-sm md:text-base"
 										href="mailto:pranaav.shinde5280@gmail.com"
 									>
 										pranaav.shinde5280@gmail.com

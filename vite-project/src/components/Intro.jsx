@@ -70,7 +70,7 @@ function Intro() {
 					<div className="w-min h-full flex justify-center items-center">
 						<div className="hero-img-container">
 							<div
-								className="hero-img rounded-full bg-cover bg-center bg-no-repeat w-72 h-72 md:w-84 md:h-84 lg:w-96 lg:h-96 xl:w-[300px] xl:h-[300px] 2xl:w-[400px] 2xl:h-[400px] 3xl:w-[500px] 3xl:h-[500px] sm:w-96 sm:h-96"
+								className="hero-img rounded-full bg-cover bg-center bg-no-repeat w-32 h-32 lg:w-96 lg:h-96 md:w-80 md:h-80 sm:w-72 sm:h-72 xs:w-64 xs:h-64 3xs:w-56 3xs:h-56  "
 								style={{
 									backgroundImage: `url(${Personalphoto})`,
 									backgroundSize: 'cover',
@@ -81,7 +81,7 @@ function Intro() {
 					</div>
 				</div>
 				<div className="hero-side">
-					<div className="skills flex lg:flex-row flex-col items-center text-2xl pt-20 lg:pr-20">
+					<div className="skills flex lg:flex-row flex-col items-center text-2xl pt-20 lg:pr-20 md:pr-16 sm:pr-12 xs:pr-10 3xs:pr-8 pr-6">
 						<p className="border-r-2 lg:border-solid lg:border-gray-500 font-mulish font-semibold mr-6 pr-4 justify-center items-end lg:items-center border-none px-12">
 							Tech Stack
 						</p>

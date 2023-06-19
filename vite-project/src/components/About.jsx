@@ -3,7 +3,7 @@ import { Macbook } from '../assets/assets';
 
 function About() {
 	return (
-		<div className="about m-auto px-6 py-12 bg-white">
+		<div className="about m-auto px-6 py-12 bg-white rounded-2xl shadow-2xl">
 			<div className="container mx-auto flex flex-col lg:flex-row gap-6 justify-center items-center lg:items-start lg:justify-between max-w-[60%]">
 				<div className="img-side flex-shrink-0 w-full lg:w-1/2 aspect-w-1 aspect-h-1">
 					<img
