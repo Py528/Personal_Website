@@ -24,7 +24,7 @@ function Intro() {
 						<div className="flex flex-col gap-8 text-5xl">
 							<div className="flex justify-center">
 								<h1 className="text-3xl lg:text-6xl md:text-5xl font-extrabold text-gray-800">
-									Front-End React Developer{' '}
+									Full-Stack React Developer{' '}
 									<span
 										role="img"
 										aria-label="wave"
@@ -35,7 +35,7 @@ function Intro() {
 							</div>
 							<div>
 								<p className="font-normal text-center text-gray-500 text-base lg:text-xl md:text-[1rem] md:text-start">
-									Hi, I'm Pranav Shinde. A passionate Front-end React Developer based in Pune, India.
+									Hi, I'm Pranav Shinde. A passionate Full-Stack React Developer based in Pune, India.
 									{'📍'}
 								</p>
 								<div className="flex gap-4 lg:justify-start justify-center mt-4 lg:mt-0">

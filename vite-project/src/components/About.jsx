@@ -17,15 +17,15 @@ function About() {
 						About me
 					</h2>
 					<h3 className="text-[#333] font-extrabold text-2xl lg:text-4xl leading-8 lg:leading-12 mb-8">
-						A dedicated Front-end Developer <br /> based in Pune, India 📍
+						A skilled Full Stack Developer <br /> based in Pune, India 📍
 					</h3>
 					<p className="text-[#777] leading-6 mb-8 text-center min-w-full shrink-0">
-						As a Junior Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS,
-						JavaScript, React, Tailwind, and SCSS. I excel in designing and maintaining responsive websites
-						that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces
-						through writing clean and optimized code and utilizing cutting-edge development tools and
-						techniques. I am also a team player who thrives in collaborating with cross-functional teams to
-						produce outstanding web applications.
+						As a Full Stack Developer, I possess a wide range of skills in HTML, CSS, JavaScript, React,
+						Node.js, Express, PostgreSQL, and more. I have a strong command of both front-end and back-end
+						development, allowing me to build robust and scalable web applications. With a focus on creating
+						user-friendly interfaces and efficient server-side functionality, I strive to deliver
+						high-quality solutions. I thrive in collaborative environments and enjoy working with diverse
+						teams to tackle complex problems and bring innovative ideas to life.
 					</p>
 				</div>
 			</div>
